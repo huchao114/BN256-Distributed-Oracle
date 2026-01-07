@@ -67,6 +67,22 @@ This is a research prototype. We welcome anyone to contribute. File a bug report
 
 The financial support by the Austrian Federal Ministry for Digital and Economic Affairs, the National Foundation for Research, Technology and Development as well as the Christian Doppler Research Association is gratefully acknowledged.
 
-## License
-
 This project is licensed under the [MIT License](LICENSE).
+
+启动本地区块链 (Ganache)。
+2.  运行管理控制台：
+    ```bash
+    python manager_gui.py
+    ```
+3.  **操作流程:**
+    * **步骤 1:** 点击 **部署智能合约 (Deploy)**。
+    * **步骤 2:** 点击 **编译 Go 节点 (Build)**。
+    * **步骤 3:** 选择节点数量并点击 **配置 Ganache 私钥**。
+    * **步骤 4:** 点击 **一键启动所有节点 (Start)**。
+    * **步骤 5:** 选择一个文件进行签名。
+    * **步骤 6:** 点击 **启动签名 & 聚合 (Trigger)**。在大屏中观察实时生成的聚合签名 $(S, R)$。
+    * **步骤 7:** 点击 **上链存证 & 验证 (Submit)** 以完成链上确认。
+
+## 📄 许可证 (License)
+
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
