@@ -1,0 +1,20 @@
+{
+    "bindAddress": "127.0.0.1:10002",
+    "privateKey": "172140aeb37c08cf8e773653b8fd1fca64bbc1f5535c6b9f80b377b977725764",
+    "contracts": {
+        "registryContractAddress": "0x3c256E075322c5769e693Fc3F6fBfe88947ed85D",
+        "oracleContractAddress": "0xf00B5f0592525A31731B51ba24D4d43b3073959b",
+        "distKeyContractAddress": "0x85fE481bA0044A92760DA4F1502FA9c4C3dD1194"
+    },
+    "ethereum": {
+        "sourceAddress": "ws://127.0.0.1:7545",
+        "targetAddress": "ws://127.0.0.1:7545",
+        "chainID": 1337,
+        "privateKey": "da38e3d49e6dcf9cb0cc45470a1088491ffe4ca51db8cdaf8369d6199c2f91e9"
+    },
+    "iota": {
+        "rest": "http://127.0.0.1:14265",
+        "mqtt": "tcp://127.0.0.1:1883",
+        "topic": "iop"
+    }
+}
